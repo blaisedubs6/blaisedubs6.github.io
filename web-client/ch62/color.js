@@ -6,13 +6,17 @@ async function envoyerDonnees() {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        cookie: "test",
+        nom: "Blaise",
         age: 25
       })
     });
-  }catch (error) {
+
+    const data = await response.json();
+    console.log("Réponse :", data);
+  } catch (error) {
     console.error("Erreur :", error);
   }
 }
+
 envoyerDonnees();
   
