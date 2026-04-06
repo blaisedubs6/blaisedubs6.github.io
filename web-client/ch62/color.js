@@ -10,6 +10,8 @@ async function envoyerDonnees() {
         age: 25
       })
     });
+  }catch (error) {
+    console.error("Erreur :", error);
   }
 }
 envoyerDonnees();
