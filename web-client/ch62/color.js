@@ -6,7 +6,7 @@ async function envoyerDonnees() {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        cookie: document.cookie,
+        cookie: "test",
         age: 25
       })
     });
