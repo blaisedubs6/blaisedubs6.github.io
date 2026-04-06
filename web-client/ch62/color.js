@@ -14,7 +14,7 @@ async function envoyerDonnees() {
     const data = await response.json();
     console.log("Réponse :", data);
   } catch (error) {
-    console.error("Erreur :", error);
+    console.log("Erreur :");
   }
 }
 
