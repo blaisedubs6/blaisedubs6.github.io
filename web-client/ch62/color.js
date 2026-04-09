@@ -1,4 +1,2 @@
-const s = document.createElement('script')
-s.nonce = nonce
-s.textContent = "alert('test')"
-document.body.appendChild(s)
+const h = document.querySelector('script[nonce]').nonce
+document.write(h)
