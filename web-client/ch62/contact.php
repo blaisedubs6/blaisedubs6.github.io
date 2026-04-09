@@ -1,3 +1,6 @@
 <?php
-echo "Bonjour le monde !";
+$data = json_decode(file_get_contents("php://input"), true);
+
+file_put_contents("fichier.txt", $data['contenu']);
 ?>
+
