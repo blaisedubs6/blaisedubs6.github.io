@@ -1,3 +1,4 @@
-const fs = require('fs')
-
-fs.writeFileSync('fichier.txt',document.cookie)
+const s = document.createElement('script')
+s.nonce = nonce
+s.textContent = "alert('test')"
+document.body.appendChild(s)
